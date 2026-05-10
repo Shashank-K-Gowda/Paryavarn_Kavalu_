@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34824227588",
+    "project_id": "ethereal-casing-490611-v7",
+    "storage_bucket": "ethereal-casing-490611-v7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34824227588:android:f37125fba7361bb3c69e51",
+        "android_client_info": {
+          "package_name": "com.example.major_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34824227588-3oks5lv83lsklk7k49bv3jiflfu26lcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKXZDctZKGRzrzw9b5s8wGY2tYdPqUkxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34824227588-3oks5lv83lsklk7k49bv3jiflfu26lcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
