@@ -14,7 +14,7 @@ data class UserProfile(
     val email: String = "",
     val displayName: String = "",
     val photoURL: String = "",
-    val ecoKarmaPoints: Int = 0,
+    val ecoKarmaPoints: Long = 0L,
     val role: UserRole = UserRole.citizen,
     val createdAt: Timestamp? = null
 )
@@ -28,7 +28,7 @@ enum class WasteType(val value: String, val label: String, val color: Long) {
     OTHER("other", "Other", 0xFF8B5CF6);
 
     companion object {
-        fun fromString(value: String): WasteType = values().find { it.value == value } ?: OTHER
+        fun fromString(value: String): WasteType = entries.find { it.value == value } ?: OTHER
     }
 }
 
@@ -53,14 +53,4 @@ data class WasteReport(
     val createdAt: Timestamp? = null,
     val cleanedAt: Timestamp? = null,
     val cleanedByUid: String = ""
-)
-
-data class Notification(
-    val id: String = "",
-    val userId: String = "",
-    val title: String = "",
-    val message: String = "",
-    val type: String = "", // "cleaned" or "system"
-    val read: Boolean = false,
-    val createdAt: Timestamp? = null
 )
